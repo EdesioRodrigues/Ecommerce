@@ -1,0 +1,41 @@
+
+---
+
+### ✅ 2. `.gitignore` para Django + seu projeto:
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+db.sqlite3
+.env
+*.pot
+*.pyc
+*.pyo
+
+# Virtualenv
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Migrations (opcional — se quiser resetar sempre que clonar)
+*/migrations/
+!*/migrations/__init__.py
+
+# Static/Media (se for gerado dinamicamente)
+staticfiles/
+media/
+
+# MacOS / Linux
+.DS_Store
+*.swp
