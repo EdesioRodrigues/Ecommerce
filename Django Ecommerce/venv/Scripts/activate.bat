@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Zold Brasil\Desktop\Edesio\VsCode\Projetos\Python\Projetos\Django\Django Ecommerce\venv
+set VIRTUAL_ENV=C:\Users\Zold Brasil\Documents\GitHub\landing-pages\Ecommerce\Django Ecommerce\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
