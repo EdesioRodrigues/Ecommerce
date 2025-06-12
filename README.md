@@ -69,9 +69,7 @@ python manage.py migrate
 
 # Rode o servidor
 python manage.py runserver
-
----
-
+```
 ---
 
 ## 👤 Autor
